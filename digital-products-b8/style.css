@@ -34,13 +34,18 @@
     /* border: 2px solid gray; */
     align-items: center;
     color: white;
-    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53 ,53 ,53))
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53 ,53 ,53));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
     
 
 }
 .title{
-    font-size: 55px;
-    font-weight: bold;
+    font-size: 45px;
+    font-weight: 600px;
 }
 .description{
     font-size: 18px;
@@ -56,4 +61,43 @@
 }
 .banner-img{
    width: 300px; 
+}
+.about-title{
+    font-size: 50px;
+    font-weight: 5000px;
+    text-align: center;
+    color: rgb(32, 240, 5);
+    font-family: 'Courier New', Courier, monospace;
+    background-color:brown
+    
+}
+.about-container{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 100px;
+  
+
+}
+.about-img{
+    width: 300px;
+    margin-top: 50px;
+}
+.box{
+    width: 230px;
+    height: 250px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding:15px ;
+    color:white;
+}
+.icon{
+    width: 70px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
 }
